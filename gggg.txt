@@ -1,0 +1,2 @@
+git config --global user.name "gkdms5190-bit"
+git config --global user.email "gkdms5190@gmail.com"
