@@ -26,3 +26,20 @@ let mix = [
 console.log(` mix 의 0번째 서랍 : `, mix[0]);
 console.log(` mix 의 1번째 서랍 : `, mix[1]);
 console.log(` mix 의 2번째 서랍 : `, mix[2]);
+
+console.log(`mix의 0번째 서랍의 이름:`, mix[0].name);
+
+let jhard1 = {
+  name: "홍길동",
+  history: {
+    job: "야구선수",
+    year: "1999",
+  },
+};
+
+jhard1.history.year = "2019";
+
+console.log(`jhard : `, jhard1);
+console.log(`jhard.name : `, jhard1.name);
+console.log(`jhard.history:`, jhard1.history);
+console.log(`jhard.history.year:`, jhard1.history.year);
