@@ -37,7 +37,7 @@ let jhard1 = {
   },
 };
 
-jhard1.history.year = "2019";
+jhard1.history.year = "2019"; //이게 위로 와야 밑에 1999결과값이 2019로 수정이 가능
 
 console.log(`jhard : `, jhard1);
 console.log(`jhard.name : `, jhard1.name);
